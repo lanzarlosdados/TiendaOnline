@@ -1,0 +1,57 @@
+.links_modal{
+    text-decoration: none;
+    color: grey;
+}
+.links_modal:hover{
+    color: darkorange;
+}
+.title_modal{
+    color: darkorange;
+    font-size: 20px;
+    font-weight: 400;
+}
+.title_login{
+    color: darkorange;
+    font-size: 30px;
+    font-weight: 400;
+}
+.links_login{
+    text-decoration: none;
+    color: darkorange;
+}
+
+.form{
+   display: flex;
+    justify-content: center;
+
+}
+.input{
+    display: block;
+    font-size: 20px;
+    padding: 0.3rem 0;
+    border-style: none;
+    background: #d8d8d8;
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    font-size: 18px;
+    color: black;
+    padding: 0.4rem;
+}
+.label{
+    display: block;
+    text-align: left;
+    font-size: 25px;
+    padding: 0.5rem 0;
+}
+.submit_login{
+    font-size: 20px;
+    padding: 0.3rem;
+    color: #fff;
+    background: darkorange;
+    margin: 20px 0;
+    border-radius: 3px;
+    cursor: pointer;
+}

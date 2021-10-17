@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('menu.css');
+@import url('slider.css');
+@import url('lentes.css');
+@import url('editor.css');
+@import url('lentes_informacion.css');
+@import url("shop_informacion.css");
+@import url("footer.css");
+@import url("modal.css");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+   font-family: 'Anton', sans-serif; 
+}
+body{
+    overflow-y: scroll;
+	 overflow-x: hidden;
+}

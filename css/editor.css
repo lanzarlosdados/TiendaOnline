@@ -1,0 +1,68 @@
+.content_editor{
+    width: 87%;
+    margin: auto;
+}
+.editor{
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.editor:before {
+    position: absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.2);
+    transition: all 0.5s;
+    opacity: 0;
+}
+.editor:hover:before{
+   opacity: 1;
+}
+.editor:hover .circle_editor{
+    right: -60px;
+    bottom: -80px;
+}
+.img_editor{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.editor_title{
+    position: absolute;
+    left: 20px;
+    top:70px;
+    color: #fff;
+    font-weight: 400;
+}
+.circle_editor{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    right: -100px;
+    bottom: -200px;
+    padding: 30px;
+    padding-right: 70px;
+    transition: all 0.5s;
+    background: rgba(0,0,0,0.7);
+    }
+.circle_text{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+@media screen and (min-width:1024px){
+    .content_editor{
+    display: flex;
+    justify-content: space-between
+    }
+    .editor{
+    width: 48%;
+}
+    
+}

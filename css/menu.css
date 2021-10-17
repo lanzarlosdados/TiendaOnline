@@ -1,0 +1,158 @@
+.content_header{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.hr_header{
+    width: 80%;
+    margin: 20px auto
+}
+.phone_text{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgba(0,0,0,0.7);
+}
+.header_title{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing:4px;
+    margin-bottom: 10px;
+    color: #4d4949;
+}
+.icon-phone{
+    font-size: 20px;
+    color: darkorange;
+    cursor: pointer;
+}
+.info_cart{
+    margin-bottom: 15px;
+}
+.icon-user, .icon-cart, .icon-menu, .icon-search{
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+.icon-search{
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    font-size: 25px;
+}
+.link_cart{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    color: black;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.content_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.icon-menu{
+    height: 43px;
+    font-size: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 0.1em;
+    border-radius: 5px;
+}
+.content_search{
+    padding: 5px;
+    position: relative;
+}
+.content_search input{
+    font-size: 15px;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.content_nav{
+    width: 70%;
+    margin: auto;
+}
+.nav{
+    position: absolute;
+    background: #fff;
+    left: -100%;
+    width: 100%;
+    top: 300px;
+    z-index: 9999;
+    transition: all 0.6s;
+}
+.mostrar{
+    left: 0;
+}
+.nav_menu li{
+    list-style: none;
+    margin:  20px ;
+    font-size: 18px;
+}
+.nav_menu a{
+    text-decoration: none;
+    color: black;
+}
+.nav_menu a:hover{
+    color: darkorange;
+}
+@media screen and (min-width:1024px){
+    .header_principal{
+        width: 100%;
+        display: flex;
+        justify-content: space-between
+    }
+    .content_header{
+    width: 90%;
+    }
+    .info_cart{
+    margin-top: 30px;
+    }
+    .info_phone{
+        margin-top: 16px;
+    }
+    .header_title{
+    font-size: 70px;
+    }
+    .phone_text{
+    font-size: 25px;
+    }
+    .link_cart{
+    font-size: 25px;
+    }
+    .icon-user, .icon-cart{
+        font-size: 25px;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .content_nav{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav{
+    position:static;
+    background: #fff;
+    left: 0;
+    width: 50%;
+    top: 0;
+    z-index: 0;
+    transition: all 0.6s;
+    }
+    .nav_menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content_search input{
+    width: 300px;
+    }
+    .nav_menu li{
+    font-size: 20px;
+    margin: 20px 10px  
+    }
+    .hr_header{
+    width: 95%;
+    margin: 20px auto
+}
+}

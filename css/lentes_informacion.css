@@ -1,0 +1,65 @@
+.content_informacion_lentes{
+    width: 87%;
+    margin: 30px auto;
+    padding: 20px
+}
+.item_informacion{
+    width: 100%;
+    height: 200px;
+    margin: 50px 0;
+    text-align: center;
+}
+.icon_informacion{
+    font-size: 35px;
+    padding: 0 0.7em;
+    color: #414141;
+}
+.informacion_title{
+    padding: 10px;
+    color: #212020;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.informacion_text{
+    font-size: 16px;
+    padding: 0.6em;
+    color: #989898;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.informacion_link{
+    width: 150px;
+    display: block;
+    font-size: 20px;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #212020;
+    border: 2px solid #ff5800;
+    margin: auto;
+}
+.informacion_link:hover{
+    background: rgba(0,0,0,0.2);
+}
+@media screen and (min-width:1024px){
+    .content_informacion_lentes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+    .icon_informacion{
+    font-size: 40px;
+    }
+    .informacion_title{
+    font-size: 30px
+    }
+    .informacion_text{
+    font-size: 18px;
+    }
+    .item_informacion{
+    height: 250px;
+    }
+    .informacion_link{
+    width: 190px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+}
