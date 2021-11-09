@@ -5,11 +5,11 @@
 }
 .item_informacion{
     width: 100%;
-    height: 200px;
     margin: 50px 0;
     text-align: center;
 }
 .icon_informacion{
+    display: block;
     font-size: 35px;
     padding: 0 0.7em;
     color: #414141;

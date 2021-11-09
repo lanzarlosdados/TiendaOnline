@@ -6,8 +6,7 @@
     <title>Tienda online</title>
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script defer src="js/menu.js"></script>
-    <script defer src="js/slider.js"></script>
+    
 </head>
 <body>
     <header>
@@ -20,7 +19,7 @@
         <h1 class="header_title">GOGGLES</h1>
         <div class="info_cart">
             <span class="icon-user" id="icon_user"></span>
-            <a href="" class="link_cart">My Cart <span class="icon-cart"></span></a>
+            <a href="#" class="link_cart" id="icon_cart">My Cart <span class="icon-cart" ></span></a>
         </div>
         </div>
         </div>
@@ -89,8 +88,8 @@
                <div class="lentes">
                    <img src="img/lentes1.jpg" alt="" class="img_lentes">
                   <div class="content_text">
-                    <p class="lentes_text">Farenheit (Grey)</p>
-                    <p class="lentes_precio">$575.00</p>
+                    <p class="lentes_text">Hipster</p>
+                    <p class="lentes_precio">$675.00</p>
                   </div>
                   <div class="content_star">
                        <div class="star icon-star"></div>
@@ -104,8 +103,8 @@
                <div class="lentes">
                    <img src="img/lentes2.jpg" alt="" class="img_lentes">
                   <div class="content_text">
-                    <p class="lentes_text">Farenheit (Grey)</p>
-                    <p class="lentes_precio">$575.00</p>
+                    <p class="lentes_text">Aviador</p>
+                    <p class="lentes_precio">$775.00</p>
                   </div>
                   <div class="content_star">
                        <div class="star icon-star"></div>
@@ -119,23 +118,25 @@
                <div class="lentes">
                    <img src="img/lentes3.jpg" alt="" class="img_lentes">
                   <div class="content_text">
-                    <p class="lentes_text">Farenheit (Grey)</p>
-                    <p class="lentes_precio">$575.00</p>
+                    <p class="lentes_text">Farenheit</p>
+                    <p class="lentes_precio">$875.00</p>
                   </div>
                   <div class="content_star">
                        <div class="star icon-star"></div>
                        <div class="star icon-star"></div>
                        <div class="star icon-star"></div>
                        <div class="star icon-star"></div>
-                       <div class="star icon-star"></div>
+                       <div class="star icon-st
+                       
+                       ar"></div>
                   </div>
                   <div class="cart_plus icon-cart-plus"></div>
                </div>
                <div class="lentes">
                    <img src="img/lentes4.jpg" alt="" class="img_lentes">
                   <div class="content_text">
-                    <p class="lentes_text">Farenheit (Grey)</p>
-                    <p class="lentes_precio">$575.00</p>
+                    <p class="lentes_text">Vulk</p>
+                    <p class="lentes_precio">$375.00</p>
                   </div>
                   <div class="content_star">
                        <div class="star icon-star"></div>
@@ -148,6 +149,41 @@
                </div>
            </div>
        </section>
+
+       <section class="shopingCartContainer" id="shopingCartContainer">
+           <div class="cart-container">
+            <a  class="cerrar-carrito" id="cerrar-carrito">X</a>
+     <div class="content_cart">
+        <div>
+             <h4>Producto</h4>
+             <hr>
+        </div>
+
+        <div>
+             <h4>Precio</h4>
+             <hr>
+        </div>
+
+        <div>
+             <h4>Cantidad</h4>
+             <hr>
+        </div>
+
+        <div>
+             <h4>Eliminar</h4>
+             <hr>
+        </div>
+  </div>
+  <div id="contentCartItems">
+
+  </div>
+  <div class="footer_shoping_cart">
+      <p class="shoping_cart_total">$0</p>
+      <button class="btn_comprar">Comprar</button>
+  </div>
+  
+</div>
+</section>
        <section class="content_editor">
            <div class="editor">
                <img src="img/img6%20(1).jpg" alt="" class="img_editor">
@@ -258,7 +294,10 @@
             </div>
         </div>
     </footer>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/sweetalert2@11.js"></script>
     <script src="js/modal.js"></script>
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/carrito.js"></script>
 </body>
 </html>
