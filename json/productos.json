@@ -1,0 +1,25 @@
+[
+    {
+        "rutaImg":"img/lentes1.jpg",
+        "nombre": "Facha",
+        "precio": 400
+    },
+
+    {
+        "rutaImg":"img/lentes4.jpg",
+        "nombre": "El mas Facha",
+        "precio": 500
+    },
+    
+    {
+        "rutaImg":"img/lentes3.jpg",
+        "nombre": "Tormenta",
+        "precio": 300
+    },
+    
+    {
+        "rutaImg":"img/lentes2.jpg",
+        "nombre": "Rayo",
+        "precio": 200
+    }
+]
