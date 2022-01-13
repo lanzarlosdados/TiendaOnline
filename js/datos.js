@@ -11,7 +11,7 @@ btnProductos.addEventListener('click', (event) => {
     );
 
     function mostrarDatos(datos){
- 
+    sectionLentes.innerHTML="";
     for (let valor of datos) {
     
         sectionLentes.innerHTML +=  `
